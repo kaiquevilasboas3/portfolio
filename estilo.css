@@ -152,6 +152,7 @@ section.container {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color:#FFF;
 }
 .section-projects-job-info h3 {
     font-size: 25px;
@@ -159,6 +160,17 @@ section.container {
 }
 .section-projects-job-area:hover .section-projects-job-info {
     display: flex;
+}
+
+.section-projects button {
+    background-color: #FFF;
+    padding:10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.section-projects button:hover {
+    background-color: #D3D3D3;
 }
 
 
