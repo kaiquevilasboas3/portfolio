@@ -156,9 +156,19 @@ section.container {
 .section-projects-job-info h3 {
     font-size: 25px;
     font-weight: bold;
+    color:#FFF;
 }
 .section-projects-job-area:hover .section-projects-job-info {
     display: flex;
+}
+.section-projects-job-info p {
+    color:#FFF;
+    width:200px;
+}
+.section-projects-job-info button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 
